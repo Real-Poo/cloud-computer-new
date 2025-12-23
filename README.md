@@ -17,7 +17,6 @@ End-to-End 학습: 송신부의 압축 방식과 수신부의 복원 방식을 �
 Retina 디스플레이 대응: 맥북 등 고해상도(HiDPI) 환경에서의 캡처 및 리사이즈 자동 처리.
 
 📂 파일 구조 (File Structure)
-₩₩₩Bash
 
 cloud-computer-new/
 ├── models/
@@ -29,10 +28,6 @@ cloud-computer-new/
 ├── client_sender.py     # [실제 배포용] 송신 클라이언트 실행 파일
 ├── server_receiver.py   # [실제 배포용] 수신 서버 실행 파일
 └── README.md
-🛠️ 설치 및 환경 설정 (Installation)
-Python 3.8 이상 및 PyTorch 환경이 필요합니다.
-
-₩₩₩Bash
 
 # 1. 저장소 클론
 git clone https://github.com/Real-Poo/cloud-computer-new.git
