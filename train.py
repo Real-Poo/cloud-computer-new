@@ -137,13 +137,13 @@ def train_reconstruction(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--data_dir', type=str, default='./train_data', help='학습 이미지 폴더')
-    parser.add_argument('--epochs', type=int, default=50)
+    parser.add_argument('--epochs', type=int, default=100)
     
     # 원하는 해상도 (예: 1280 720)
-    parser.add_argument('--width', type=int, default=1280)
-    parser.add_argument('--height', type=int, default=720)
+    parser.add_argument('--width', type=int, default=256)
+    parser.add_argument('--height', type=int, default=256)
     
-    parser.add_argument('--batch_size', type=int, default=2)
+    parser.add_argument('--batch_size', type=int, default=8)
     parser.add_argument('--lr', type=float, default=0.001)
 
     args = parser.parse_args()
